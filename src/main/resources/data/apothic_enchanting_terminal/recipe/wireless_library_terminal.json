@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "ae2:wireless_terminal" }, { "item": "apothic_enchanting_terminal:library_monitor" } ],
+  "result": { "id": "apothic_enchanting_terminal:wireless_library_terminal", "count": 1 }
+}

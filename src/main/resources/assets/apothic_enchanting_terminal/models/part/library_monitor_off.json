@@ -1,0 +1,8 @@
+{
+  "parent": "ae2:part/terminal_off",
+  "textures": {
+    "lightsBright": "apothic_enchanting_terminal:part/library_monitor_bright",
+    "lightsMedium": "apothic_enchanting_terminal:part/library_monitor_medium",
+    "lightsDark": "apothic_enchanting_terminal:part/library_monitor_dark"
+  }
+}

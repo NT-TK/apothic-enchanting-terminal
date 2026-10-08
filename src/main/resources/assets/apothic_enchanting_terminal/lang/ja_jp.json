@@ -1,0 +1,20 @@
+{
+  "item.apothic_enchanting_terminal.library_monitor": "ライブラリターミナル",
+  "message.apothic_enchanting_terminal.offline": "MEネットワークがオフラインです",
+  "message.apothic_enchanting_terminal.no_library": "ストレージバスで接続された図書館がありません",
+  "item.apothic_enchanting_terminal.wireless_library_terminal": "無線ライブラリターミナル",
+  "message.apothic_enchanting_terminal.no_power": "電力が足りません",
+  "key.ae2.wireless_library_terminal": "無線ライブラリターミナルを開く",
+  "gui.apothic_enchanting_terminal.search": "検索...",
+  "gui.apothic_enchanting_terminal.max_level": "最大レベル: %s",
+  "gui.apothic_enchanting_terminal.points": "ポイント: %s / %s",
+  "gui.apothic_enchanting_terminal.extracting": "取り出し: %s",
+  "gui.apothic_enchanting_terminal.cost": "コスト: %sポイント",
+  "gui.apothic_enchanting_terminal.unavailable": "これ以上は取り出せません",
+  "gui.apothic_enchanting_terminal.library_terminal": "ライブラリターミナル",
+  "gui.apothic_enchanting_terminal.no_library": "ライブラリが接続されていません",
+  "gui.apothic_enchanting_terminal.need_book": "エンチャントの本か、空の手で操作してください",
+  "gui.apothic_enchanting_terminal.library_title": "ライブラリ",
+  "gui.apothic_enchanting_terminal.filter": "エンチャントフィルター",
+  "gui.apothic_enchanting_terminal.filter_hint": "アイテムを置くと、そのアイテムに付けられるエンチャントだけ表示します"
+}

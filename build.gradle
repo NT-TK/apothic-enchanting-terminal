@@ -1,0 +1,65 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = mod_group
+version = mod_version
+base { archivesName = mod_id }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = neo_version
+
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+    }
+
+    mods {
+        "${mod_id}" { sourceSet sourceSets.main }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        // AE2WTLib (Wireless Terminal Library)
+        url = 'https://modmaven.dev/'
+        content { includeGroup 'de.mari_023' }
+    }
+    maven {
+        // Curios (Apothic Enchanting が依存)
+        url = 'https://maven.theillusivec4.top'
+        content { includeGroupByRegex 'top\\.theillusivec4.*' }
+    }
+    maven {
+        // JEI などの推移的依存用
+        url = 'https://maven.blamejared.com'
+        content { includeGroup 'mezz.jei' }
+    }
+    maven {
+        url = 'https://maven.shadowsoffire.dev/releases'
+        content {
+            includeGroup 'dev.shadowsoffire'
+            includeGroup 'snownee.jade'
+        }
+    }
+}
+
+dependencies {
+    implementation "org.appliedenergistics:appliedenergistics2:${ae2_version}"
+    runtimeOnly "org.appliedenergistics:guideme:${guideme_version}"
+    // AE2WTLib: 統合用(任意依存。実行時に無くても動く)
+    implementation "de.mari_023:ae2wtlib:${ae2wtlib_version}"
+    implementation "dev.shadowsoffire:ApothicEnchanting:${apothic_enchanting_version}"
+    implementation "dev.shadowsoffire:Placebo:${placebo_version}"
+    implementation "dev.shadowsoffire:ApothicAttributes:${apothic_attributes_version}"
+}
+
+processResources {
+    var props = [mod_id: mod_id, mod_name: mod_name, mod_version: mod_version]
+    inputs.properties props
+    filesMatching('META-INF/neoforge.mods.toml') { expand props }
+}

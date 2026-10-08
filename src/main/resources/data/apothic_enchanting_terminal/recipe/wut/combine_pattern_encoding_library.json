@@ -1,0 +1,8 @@
+{
+  "neoforge:conditions": [ { "type": "neoforge:mod_loaded", "modid": "ae2wtlib" } ],
+  "type": "ae2wtlib:combine",
+  "terminalA": { "item": "ae2wtlib:wireless_pattern_encoding_terminal" },
+  "terminalB": { "item": "apothic_enchanting_terminal:wireless_library_terminal" },
+  "terminalAName": "pattern_encoding",
+  "terminalBName": "library"
+}

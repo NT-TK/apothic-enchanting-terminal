@@ -1,0 +1,20 @@
+{
+  "item.apothic_enchanting_terminal.library_monitor": "Library Terminal",
+  "message.apothic_enchanting_terminal.offline": "The ME network is offline",
+  "message.apothic_enchanting_terminal.no_library": "No library is connected via a Storage Bus",
+  "item.apothic_enchanting_terminal.wireless_library_terminal": "Wireless Library Terminal",
+  "message.apothic_enchanting_terminal.no_power": "Out of power",
+  "key.ae2.wireless_library_terminal": "Open Wireless Library Terminal",
+  "gui.apothic_enchanting_terminal.search": "Search...",
+  "gui.apothic_enchanting_terminal.max_level": "Max level: %s",
+  "gui.apothic_enchanting_terminal.points": "Points: %s / %s",
+  "gui.apothic_enchanting_terminal.extracting": "Extracting: %s",
+  "gui.apothic_enchanting_terminal.cost": "Cost: %s points",
+  "gui.apothic_enchanting_terminal.unavailable": "Cannot extract any further",
+  "gui.apothic_enchanting_terminal.library_terminal": "Library Terminal",
+  "gui.apothic_enchanting_terminal.no_library": "No library connected",
+  "gui.apothic_enchanting_terminal.need_book": "Hold an enchanted book or nothing",
+  "gui.apothic_enchanting_terminal.library_title": "Library",
+  "gui.apothic_enchanting_terminal.filter": "Enchantment Filter",
+  "gui.apothic_enchanting_terminal.filter_hint": "Place an item to list only the enchantments it can have"
+}

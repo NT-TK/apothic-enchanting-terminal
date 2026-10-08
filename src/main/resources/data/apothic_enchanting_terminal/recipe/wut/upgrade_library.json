@@ -1,0 +1,6 @@
+{
+  "neoforge:conditions": [ { "type": "neoforge:mod_loaded", "modid": "ae2wtlib" } ],
+  "type": "ae2wtlib:upgrade",
+  "terminal": { "item": "apothic_enchanting_terminal:wireless_library_terminal" },
+  "terminalName": "library"
+}

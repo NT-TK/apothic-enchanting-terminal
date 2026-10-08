@@ -1,0 +1,22 @@
+{
+  "includes": [ "../terminals/base_terminal.json" ],
+  "slots": {
+    "AET_LIBRARY_FILTER": { "left": 8, "top": 1 }
+  },
+  "widgets": {
+    "scrollingUpgrades": { "right": 2, "top": 0 },
+    "upgradeScrollbar": { "right": -17, "top": 6 },
+    "upgrades": { "left": -9999, "top": -9999 },
+    "terminalSelection": { "left": -15, "bottom": 200 }
+  },
+  "text": {
+    "dialog_title": {
+      "text": { "translate": "gui.apothic_enchanting_terminal.library_title" },
+      "position": { "left": 28, "top": 6 }
+    }
+  },
+  "terminalStyle": {
+    "sortable": false,
+    "supportsAutoCrafting": false
+  }
+}

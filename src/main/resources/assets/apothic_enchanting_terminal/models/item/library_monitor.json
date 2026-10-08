@@ -1,0 +1,9 @@
+{
+  "parent": "ae2:item/terminal",
+  "textures": {
+    "front": "apothic_enchanting_terminal:part/library_monitor",
+    "front_bright": "apothic_enchanting_terminal:part/library_monitor_bright",
+    "front_medium": "apothic_enchanting_terminal:part/library_monitor_medium",
+    "front_dark": "apothic_enchanting_terminal:part/library_monitor_dark"
+  }
+}

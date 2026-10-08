@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "ae2:terminal" }, { "item": "apothic_enchanting:library" } ],
+  "result": { "id": "apothic_enchanting_terminal:library_monitor", "count": 1 }
+}

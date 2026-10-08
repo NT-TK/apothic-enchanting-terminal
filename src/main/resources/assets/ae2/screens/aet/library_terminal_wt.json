@@ -1,0 +1,7 @@
+{
+  "includes": [ "library_terminal.json" ],
+  "widgets": {
+    "scrollingUpgrades": { "right": 2, "top": 0 },
+    "upgradeScrollbar": { "right": -17, "top": 6 }
+  }
+}
